@@ -1,0 +1,54 @@
+A aplicação de ser capas de gerenciar tanto filmes quanto series, uqe pussuem um genero
+
+
+generos: ação, comédia, ficção científica, aventura, romance, terro
+
+
+as series devem possuir temporadas e cada ep da temp deve ser gerenciado
+
+
+filmes e serie devem possuir id, titulo, genero, duração, ano lancamento, elenco principal, elenco secundario
+
+
+elenco principal e secundario é composto por atores
+
+adicionar classe para genero
+o ator deve possuir um id, nome, data de nascismento e sexo
+
+
+o ep de ter id titulo duração, numero da temp e serie q pertence
+
+
+usuario deve possuir id, nome, data nascimento e senha
+
+
+duvida: a duração da serie e total ou do ep ou das temp?
+
+
+fazer id gerado aleatoriamente
+
+
+quando for listar filme/serie aparecer as opções de id(RESOLVIDO) aparece quando é para ver os atores 100
+
+
+PROBLEMA: elenco pricipal e secundario está sobrepondo os nome(RESOLVIDO), fazer os elencos como lista
+quando for listar filme/serie por genero, aparecer as opçoes de genero que tem(RESOLVIDO)
+
+
+quando for remover os filmes/series aparecer o id e o nome do filme/serie(RESOLVIDO)
+quando for ver detalhes tambem(RESOLVIDO)
+quando for ver atores tbm(RESOLVIDO)
+quando a pessoa for colocar o nome do filme/serie, aparecer a mensagem "se tiver numero, escrever por estenso"
+se o usuario colocar um nome no lugar do id, tanto em serie, filme, temporada e episodio, aparecer a mensagem, "somente numero, digite novamente" e aparecer o menu dnv(RESOLVIDO para filme e serie)
+quando for adcionar uma temp numa serie, aparecer os id das series e o nomes como opcao(RESOLVIDO)
+
+quando for adcionar temporada, ela ser adcionada automaticamente, sem precisar colocar o numero dela, de 1 até 1000, se vou adcionar uma temporada numa serie, a temporada vai automaticamente com o numero 1
+
+quando apertar 14 aparecer a opcao se coloca em principal ou secundario
+
+colocar erro na hora que clicar para ver atores principais de filmes/series e não tiver atores, aparecer"nenhum ator principal cadastrado"
+
+verificar se quando for adcionar um ator, se ele já nao esta adicionado para não adicionar repetido
+
+
+quando for adcionar um elenco numa serie/filme e nao tiver um dos dois, aparecer "não a filme cadastrado" "não a serie cadastrada" e não deixar adicionar elenco se não houver filme ou serie
